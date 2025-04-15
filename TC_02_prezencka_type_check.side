@@ -1,0 +1,162 @@
+{
+  "id": "f4379a84-42b7-4782-a8b5-d983e0d9c242",
+  "version": "2.0",
+  "name": "ITMS",
+  "url": "https://www.slovensko.sk",
+  "tests": [{
+    "id": "cde3e987-f16f-4bd3-a4b8-a5e60b73d657",
+    "name": "TC_01_slovensko_open",
+    "commands": [{
+      "id": "9b87d2c7-97c1-4bd5-82f8-a1e05b6e4ee7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "169023b2-83d7-4825-8a95-6b2360f30634",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk/sk/kontakt",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ef2d866-ca2f-43a4-8d2e-58083b8c8eb1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk/sk/navody",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "eb4ef009-d3f9-4428-9dd7-e9df37a4beee",
+    "name": "este nvm",
+    "commands": [{
+      "id": "f182d0ae-fc83-475d-b999-e84634dd3201",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "https://www.slovensko.sk",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9fd1bd8-471c-48e7-9206-33110a692aa4",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "https://www.slovensko.sk/sk/navody",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c14bed44-f2a9-4705-8d2a-94fdf11ccee6",
+    "name": "TC_03_type_prezencka_type_check",
+    "commands": [{
+      "id": "4cb0a1dd-6007-4d87-afcf-cb5db2385bb9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.it-academy.sk/prezencka/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95ca0144-7e8a-4ccb-8d39-d76fc634bbc4",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][title]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][title]", "name"],
+        ["css=.titul", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][title]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[3]/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "Mgr."
+    }, {
+      "id": "abfaa6b4-c65d-47a8-b2a5-7412afe715bf",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][firstname]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][firstname]", "name"],
+        ["css=#firstname > input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][firstname]']", "xpath:attributes"],
+        ["xpath=//td[@id='firstname']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "Lula"
+    }, {
+      "id": "db9ffc54-3168-4b95-9d36-6a74380ea708",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][lastname]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][lastname]", "name"],
+        ["css=#lastname > input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][lastname]']", "xpath:attributes"],
+        ["xpath=//td[@id='lastname']/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": "Slovackova"
+    }, {
+      "id": "bdfa183a-de1b-4a0f-b8b8-a3d7832a6f93",
+      "comment": "",
+      "command": "type",
+      "target": "id=datepicker",
+      "targets": [
+        ["id=datepicker", "id"],
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][birthdate]", "name"],
+        ["css=#datepicker", "css:finder"],
+        ["xpath=//input[@id='datepicker']", "xpath:attributes"],
+        ["xpath=//td[@id='birthdate']/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/input", "xpath:position"]
+      ],
+      "value": "11.12.2002"
+    }, {
+      "id": "11f948ad-443b-490d-b4e8-dbe59e6b3106",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][location]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][location]", "name"],
+        ["css=tr:nth-child(5) input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][location]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[5]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/input", "xpath:position"]
+      ],
+      "value": "Presov"
+    }, {
+      "id": "eaa3d581-37b1-467f-bd21-779422020eb5",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][email]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][email]", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][email]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[6]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td/input", "xpath:position"]
+      ],
+      "value": "blabla@gmail.com"
+    }, {
+      "id": "60ce6078-ddac-4e12-9de1-70a29d832efc",
+      "comment": "",
+      "command": "check",
+      "target": "css=tr:nth-child(9) input:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(9) input:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='tx_itacademyprez_itaprezencka[sou]'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[9]/td/input[2]", "xpath:idRelative"],
+        ["xpath=//td/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "956a3a09-4667-4609-9c65-879b336307dd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cde3e987-f16f-4bd3-a4b8-a5e60b73d657"]
+  }],
+  "urls": ["https://www.slovensko.sk/"],
+  "plugins": []
+}

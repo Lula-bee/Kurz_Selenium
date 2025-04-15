@@ -1,0 +1,42 @@
+{
+  "id": "f4379a84-42b7-4782-a8b5-d983e0d9c242",
+  "version": "2.0",
+  "name": "ITMS",
+  "url": "https://www.slovensko.sk",
+  "tests": [{
+    "id": "cde3e987-f16f-4bd3-a4b8-a5e60b73d657",
+    "name": "TC_01_slovensko_open",
+    "commands": [{
+      "id": "9b87d2c7-97c1-4bd5-82f8-a1e05b6e4ee7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "169023b2-83d7-4825-8a95-6b2360f30634",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk/sk/kontakt",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ef2d866-ca2f-43a4-8d2e-58083b8c8eb1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk/sk/navody",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "956a3a09-4667-4609-9c65-879b336307dd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cde3e987-f16f-4bd3-a4b8-a5e60b73d657"]
+  }],
+  "urls": ["https://www.slovensko.sk/"],
+  "plugins": []
+}
