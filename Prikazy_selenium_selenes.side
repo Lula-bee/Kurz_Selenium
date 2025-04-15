@@ -1,0 +1,92 @@
+{
+  "id": "369e3c16-b007-4c63-84c7-dac5884d0d6e",
+  "version": "2.0",
+  "name": "Prikazy_selenium_selenes",
+  "url": "https://www.google.sk",
+  "tests": [{
+    "id": "475abbb4-743e-4740-9695-533098a3f7aa",
+    "name": "TC001_Otvorenie_web_stranok",
+    "commands": [{
+      "id": "77b63f4c-6537-4067-9f19-71d34b1aab8e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.sk",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28697ba6-88d2-4d46-a6da-8a12f975cb4f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.facebook.sk",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc7d8250-af40-4d21-b6ec-8efe5a2d4cfa",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1afc5cf2-074e-4426-8ac8-153d18add4a0",
+    "name": "TC002_Cakanie_Element_wait",
+    "commands": [{
+      "id": "d5b79634-a791-4694-9daa-1c35bd0c8901",
+      "comment": "",
+      "command": "open",
+      "target": "https://facebook.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba57c2be-c02d-4fe5-a34e-64994bcbcea7",
+      "comment": "",
+      "command": "//waitForElementVisible",
+      "target": "css=.fb_logo",
+      "targets": [],
+      "value": "2000"
+    }, {
+      "id": "d6afdc21-29a3-41b3-ab7b-fdbf36452caa",
+      "comment": "",
+      "command": "echo",
+      "target": "Test uspesny",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "cdf02c86-9c6e-4116-9907-f5fed7d1f1ae",
+    "name": "TC003_Cakanie_Element_wait_Visible",
+    "commands": [{
+      "id": "33d5626e-e9c4-4434-88b9-40419c4d5407",
+      "comment": "",
+      "command": "open",
+      "target": "https://google.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76b8af31-7313-4591-8847-a6cad408b3f1",
+      "comment": "",
+      "command": "//waitForElementVisible",
+      "target": "css=.fb_logo",
+      "targets": [],
+      "value": "2000"
+    }, {
+      "id": "87c3fb5a-eca0-4ec2-bcba-670589e704b4",
+      "comment": "",
+      "command": "echo",
+      "target": "Test uspesny",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8c254650-bde7-4a4e-83ee-c0207dcd78cb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["475abbb4-743e-4740-9695-533098a3f7aa"]
+  }],
+  "urls": ["https://www.google.sk/"],
+  "plugins": []
+}
