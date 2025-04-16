@@ -1,0 +1,747 @@
+{
+  "id": "f4379a84-42b7-4782-a8b5-d983e0d9c242",
+  "version": "2.0",
+  "name": "ITMS",
+  "url": "https://www.slovensko.sk",
+  "tests": [{
+    "id": "cde3e987-f16f-4bd3-a4b8-a5e60b73d657",
+    "name": "TC_01_slovensko_open",
+    "commands": [{
+      "id": "9b87d2c7-97c1-4bd5-82f8-a1e05b6e4ee7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "169023b2-83d7-4825-8a95-6b2360f30634",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk/sk/kontakt",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ef2d866-ca2f-43a4-8d2e-58083b8c8eb1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk/sk/navody",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "eb4ef009-d3f9-4428-9dd7-e9df37a4beee",
+    "name": "este nvm",
+    "commands": [{
+      "id": "f182d0ae-fc83-475d-b999-e84634dd3201",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "https://www.slovensko.sk",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9fd1bd8-471c-48e7-9206-33110a692aa4",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "https://www.slovensko.sk/sk/navody",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c14bed44-f2a9-4705-8d2a-94fdf11ccee6",
+    "name": "TC_03_type_prezencka_type_check",
+    "commands": [{
+      "id": "4cb0a1dd-6007-4d87-afcf-cb5db2385bb9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.it-academy.sk/prezencka/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95ca0144-7e8a-4ccb-8d39-d76fc634bbc4",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][title]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][title]", "name"],
+        ["css=.titul", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][title]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[3]/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "Mgr."
+    }, {
+      "id": "abfaa6b4-c65d-47a8-b2a5-7412afe715bf",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][firstname]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][firstname]", "name"],
+        ["css=#firstname > input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][firstname]']", "xpath:attributes"],
+        ["xpath=//td[@id='firstname']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "Lula"
+    }, {
+      "id": "db9ffc54-3168-4b95-9d36-6a74380ea708",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][lastname]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][lastname]", "name"],
+        ["css=#lastname > input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][lastname]']", "xpath:attributes"],
+        ["xpath=//td[@id='lastname']/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": "Slovackova"
+    }, {
+      "id": "bdfa183a-de1b-4a0f-b8b8-a3d7832a6f93",
+      "comment": "",
+      "command": "type",
+      "target": "id=datepicker",
+      "targets": [
+        ["id=datepicker", "id"],
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][birthdate]", "name"],
+        ["css=#datepicker", "css:finder"],
+        ["xpath=//input[@id='datepicker']", "xpath:attributes"],
+        ["xpath=//td[@id='birthdate']/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/input", "xpath:position"]
+      ],
+      "value": "11.12.2002"
+    }, {
+      "id": "11f948ad-443b-490d-b4e8-dbe59e6b3106",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][location]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][location]", "name"],
+        ["css=tr:nth-child(5) input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][location]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[5]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/input", "xpath:position"]
+      ],
+      "value": "Presov"
+    }, {
+      "id": "eaa3d581-37b1-467f-bd21-779422020eb5",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][email]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][email]", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][email]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[6]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td/input", "xpath:position"]
+      ],
+      "value": "blabla@gmail.com"
+    }, {
+      "id": "60ce6078-ddac-4e12-9de1-70a29d832efc",
+      "comment": "",
+      "command": "check",
+      "target": "css=tr:nth-child(9) input:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(9) input:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='tx_itacademyprez_itaprezencka[sou]'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[9]/td/input[2]", "xpath:idRelative"],
+        ["xpath=//td/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e563e15d-f8ef-4002-b7a3-53daecf67fd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-button",
+      "targets": [
+        ["css=.ui-button", "css:finder"],
+        ["xpath=//input[@name='']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[10]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[10]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b7f0b20-b451-40ef-a531-0026fa9a1bf3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected",
+      "targets": [
+        ["css=.selected", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/ul[3]/li", "xpath:idRelative"],
+        ["xpath=//ul[3]/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Občan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ffc426d-3a95-419b-99d2-6a015651d489",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected",
+      "targets": [
+        ["css=.selected", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/ul[3]/li", "xpath:idRelative"],
+        ["xpath=//ul[3]/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Občan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b835aa7-4161-4b4d-9532-2a983b43f52d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rodina a vzťahy",
+      "targets": [
+        ["linkText=Rodina a vzťahy", "linkText"],
+        ["css=.mainTab-wrap-btn li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Rodina a vzťahy')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div/div/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rodina a vzťahy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "689517dc-63fd-4649-a4fd-76226b7e65a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mouseEnter",
+      "targets": [
+        ["css=.mouseEnter", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div[9]/ul/li[4]/a/em", "xpath:idRelative"],
+        ["xpath=//div[9]/ul/li[4]/a/em", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6405ca2-b195-450e-ba26-e79d6c8f62cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected > .mainTab-content-first > li:nth-child(4)",
+      "targets": [
+        ["css=.selected > .mainTab-content-first > li:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div[9]/ul/li[4]", "xpath:idRelative"],
+        ["xpath=//div[9]/ul/li[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d65fae6c-b0d2-4852-b8da-d211d80d6ad6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Uvítanie detí do života",
+      "targets": [
+        ["linkText=Uvítanie detí do života", "linkText"],
+        ["css=.selected li:nth-child(4) li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Uvítanie detí do života')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div/div/div[9]/ul/li[4]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sk/detail-sluzby?externalCode=sluzba_egov_370')]", "xpath:href"],
+        ["xpath=//div[9]/ul/li[4]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Uvítanie detí do života')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "381e0e2d-d0cb-4b07-a4d6-9779d7373347",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Uvítanie detí do života",
+      "targets": [
+        ["linkText=Uvítanie detí do života", "linkText"],
+        ["css=.selected li:nth-child(4) li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Uvítanie detí do života')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div/div/div[9]/ul/li[4]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sk/detail-sluzby?externalCode=sluzba_egov_370')]", "xpath:href"],
+        ["xpath=//div[9]/ul/li[4]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Uvítanie detí do života')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f2b66cb-5288-452d-a4aa-2af6058994a9",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "linkText=Uvítanie detí do života",
+      "targets": [
+        ["linkText=Uvítanie detí do života", "linkText"],
+        ["css=.selected li:nth-child(4) li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Uvítanie detí do života')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div/div/div[9]/ul/li[4]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sk/detail-sluzby?externalCode=sluzba_egov_370')]", "xpath:href"],
+        ["xpath=//div[9]/ul/li[4]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Uvítanie detí do života')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acec45eb-15f8-4295-bd75-d2633a85b44c",
+      "comment": "",
+      "command": "click",
+      "target": "id=select2-M4_poskytovatelia-container",
+      "targets": [
+        ["id=select2-M4_poskytovatelia-container", "id"],
+        ["css=#select2-M4_poskytovatelia-container", "css:finder"],
+        ["xpath=//span[@id='select2-M4_poskytovatelia-container']", "xpath:attributes"],
+        ["xpath=//div[@id='sl-sc-no-js-hide-instituion-select']/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "790a756b-df4a-4597-9ff5-7b320d6c9766",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=select2-M4_poskytovatelia-results",
+      "targets": [
+        ["id=select2-M4_poskytovatelia-results", "id"],
+        ["css=#select2-M4_poskytovatelia-results", "css:finder"],
+        ["xpath=//ul[@id='select2-M4_poskytovatelia-results']", "xpath:attributes"],
+        ["xpath=//body[@id='subpagePage']/span[2]/span/span[2]/ul", "xpath:idRelative"],
+        ["xpath=//span[2]/ul", "xpath:position"]
+      ],
+      "value": "271.1999969482422,35.06666564941406"
+    }, {
+      "id": "186ef3d8-e545-4009-a28d-d798622bb909",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=select2-M4_poskytovatelia-results",
+      "targets": [
+        ["id=select2-M4_poskytovatelia-results", "id"],
+        ["css=#select2-M4_poskytovatelia-results", "css:finder"],
+        ["xpath=//ul[@id='select2-M4_poskytovatelia-results']", "xpath:attributes"],
+        ["xpath=//body[@id='subpagePage']/span[2]/span/span[2]/ul", "xpath:idRelative"],
+        ["xpath=//span[2]/ul", "xpath:position"]
+      ],
+      "value": "271.1999969482422,35.06666564941406"
+    }, {
+      "id": "8554f307-9293-41de-88d5-ca70dede1102",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=select2-M4_poskytovatelia-results",
+      "targets": [
+        ["id=select2-M4_poskytovatelia-results", "id"],
+        ["css=#select2-M4_poskytovatelia-results", "css:finder"],
+        ["xpath=//ul[@id='select2-M4_poskytovatelia-results']", "xpath:attributes"],
+        ["xpath=//body[@id='subpagePage']/span[2]/span/span[2]/ul", "xpath:idRelative"],
+        ["xpath=//span[2]/ul", "xpath:position"]
+      ],
+      "value": "271.1999969482422,35.06666564941406"
+    }, {
+      "id": "b873e25d-15da-4476-b477-dd7f9a7319b0",
+      "comment": "",
+      "command": "click",
+      "target": "id=M4_resultRepeater_ctl05_serviceLink",
+      "targets": [
+        ["id=M4_resultRepeater_ctl05_serviceLink", "id"],
+        ["linkText=Prejsť na službu", "linkText"],
+        ["css=#M4_resultRepeater_ctl05_serviceLink", "css:finder"],
+        ["xpath=(//a[contains(text(),'Prejsť na službu')])[5]", "xpath:link"],
+        ["xpath=//a[@id='M4_resultRepeater_ctl05_serviceLink']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div[3]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.dcom.sk/detail-sluzby?nazov=uvitanie-deti-do-zivota&obec=dobsina')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2001",
+      "windowTimeout": 2000
+    }, {
+      "id": "9491231e-ef72-4953-873a-bc1b370b73a3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2001}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9912b8bf-8bd9-4054-b313-8d7398f2f464",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gdprcb_button_essential_only",
+      "targets": [
+        ["css=.gdprcb_button_essential_only", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='gdpr_cookies_banner_wrapper_v_1_0']/div/div[2]/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Odmietnuť')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99b01fc5-bf8b-4c31-af32-21cf8a3d894d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Prejsť na výber elektronických služieb",
+      "targets": [
+        ["linkText=Prejsť na výber elektronických služieb", "linkText"],
+        ["css=.d-sm-block", "css:finder"],
+        ["xpath=//a[contains(text(),'Prejsť na výber elektronických služieb')]", "xpath:link"],
+        ["xpath=//section[@id='portlet_sk_dcom_portal_portlet_eservicedisplay_ESERVICEDISPLAY']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.dcom.sk/e-form/index.html#/selector?domain=dobsina')]", "xpath:href"],
+        ["xpath=//section/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Prejsť na výber elektronických služieb')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7560eddd-752b-410b-ba2d-32b7f03b40a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.q-mb-md > .q-btn__content",
+      "targets": [
+        ["css=.q-mb-md > .q-btn__content", "css:finder"],
+        ["xpath=//div[@id='q-app']/div/div/main/div/div[2]/div[3]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0673f2d6-194d-4534-9362-df4cdeabfa95",
+      "comment": "",
+      "command": "click",
+      "target": "css=.q-ma-xs:nth-child(9) > .q-list:nth-child(7) .q-item__section",
+      "targets": [
+        ["css=.q-ma-xs:nth-child(9) > .q-list:nth-child(7) .q-item__section", "css:finder"],
+        ["xpath=//div[@id='q-app']/div/div/main/div/div[2]/div[2]/div[8]/div[7]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[8]/div[7]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44fc21f2-6588-47e8-99aa-e97c7e817465",
+      "comment": "",
+      "command": "click",
+      "target": "css=div > .q-btn:nth-child(1) .q-icon",
+      "targets": [
+        ["css=div > .q-btn:nth-child(1) .q-icon", "css:finder"],
+        ["xpath=//div[@id='q-app']/div/div/main/div/div[2]/div[2]/div/div/div/div[2]/div/button/span[2]/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span[2]/i", "xpath:position"],
+        ["xpath=//i[contains(.,'info')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f988bf15-9c8c-4169-ba6a-c0199885f2ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.block",
+      "targets": [
+        ["css=.block", "css:finder"],
+        ["xpath=//span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bedc2a97-6294-4b1c-b6ea-3a7b19f3ae1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=span > .q-btn .q-icon",
+      "targets": [
+        ["css=span > .q-btn .q-icon", "css:finder"],
+        ["xpath=//div[@id='q-app']/div/div/main/div/div/div/div/span/button/span[2]/i", "xpath:idRelative"],
+        ["xpath=//span/button/span[2]/i", "xpath:position"],
+        ["xpath=//i[contains(.,'keyboard_backspace')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b092fff-8377-49a5-9063-110cd33e71e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.q-toolbar",
+      "targets": [
+        ["css=.q-toolbar", "css:finder"],
+        ["xpath=//div[@id='q-app']/div/header/div/div", "xpath:idRelative"],
+        ["xpath=//header/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2e4fd17-e6c5-4afe-a0ca-d81b554d98da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.q-btn:nth-child(1) .q-icon",
+      "targets": [
+        ["css=.q-btn:nth-child(1) .q-icon", "css:finder"],
+        ["xpath=//div[@id='q-app']/div/div/main/div/div/div/div/span/button/span[2]/i", "xpath:idRelative"],
+        ["xpath=//span/button/span[2]/i", "xpath:position"],
+        ["xpath=//i[contains(.,'keyboard_backspace')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ee27943-18d6-4e9a-b545-4352cd4c416d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.q-btn:nth-child(1) .q-icon",
+      "targets": [
+        ["css=.q-btn:nth-child(1) .q-icon", "css:finder"],
+        ["xpath=//div[@id='q-app']/div/div/main/div/div/div/div/span/button/span[2]/i", "xpath:idRelative"],
+        ["xpath=//span/button/span[2]/i", "xpath:position"],
+        ["xpath=//i[contains(.,'keyboard_backspace')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b42c6c3e-c52a-422c-a757-65c76a440b1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-10 > .q-ml-md",
+      "targets": [
+        ["css=.col-10 > .q-ml-md", "css:finder"],
+        ["xpath=//div[@id='q-app']/div/div/main/div/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Výber služby')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b07e016f-176f-4948-abdf-d3ca38ac6e76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slovensko",
+      "targets": [
+        ["css=.slovensko", "css:finder"],
+        ["xpath=//img[contains(@src,'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzguNjQgMzIuNTIiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojZmZmO308L3N0eWxlPjwvZGVmcz48ZyBpZD0iTGF5ZXJfMiIgZGF0YS1uYW1lPSJMYXllciAyIj48ZyBpZD0iTGF5ZXJfMS0yIiBkYXRhLW5hbWU9IkxheWVyIDEiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTU0Ljc3LDEzLjM3YTQuNTcsNC41NywwLDAsMCwxLjg1LTEuODUsNS42Nyw1LjY3LDAsMCwwLC43MS0yLjg4LDUuOTMsNS45MywwLDAsMC0uODktMy4yN0E0Ljg0LDQuODQsMCwwLDAsNTQsMy40NGExMS40LDExLjQsMCwwLDAtMy41LS4zOUg0OC4wOFYxNGgzLjU0YTcsNywwLDAsMCwzLjE1LS41OW0tNS4zMi0uNzVWNC40M0g1MGExMiwxMiwwLDAsMSwzLjIxLjMsMy41MywzLjUzLDAsMCwxLDIsMS40MSw0LjM5LDQuMzksMCwwLDEsLjcxLDIuNTJBNC4xNSw0LjE1LDAsMCwxLDU1LjI2LDExYTMuMzEsMy4zMSwwLDAsMS0xLjc4LDEuMzMsMTEuMDksMTEuMDksMCwwLDEtMywuMjdaIi8+PHBvbHlnb24gY2xhc3M9ImNscy0xIiBwb2ludHM9IjY1LjgxIDAgNjMuNzYgMCA2MS45NSAyLjU2IDYzLjM1IDIuNTYgNjUuODEgMCIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTYzLjE1LDMuMDUsNTgsMTRoMS41N2wxLjY1LTMuNDdoNC4zM0w2Ny4yLDE0aDEuNTNMNjMuNjMsMy4wNVptLTEuMyw2LjA3LDEuNTQtMy4yNCwxLjUzLDMuMjRaIi8+PHBvbHlnb24gY2xhc3M9ImNscy0xIiBwb2ludHM9IjcxLjIyIDEzLjk2IDcyLjY1IDEzLjk2IDcyLjY1IDQuNDMgNzUuMDEgNC40MyA3NS4wMSAzLjA0IDY4Ljg3IDMuMDQgNjguODcgNC40MyA3MS4yMiA0LjQzIDcxLjIyIDEzLjk2Ii8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNODEuMzksMi43OGE1LjY0LDUuNjQsMCwwLDAtNC45MiwyLjg2LDUuODgsNS44OCwwLDAsMC0uNzYsMi45MSw1LjQ4LDUuNDgsMCwwLDAsMS42Nyw0LDUuNjEsNS42MSwwLDAsMCw0LjA5LDEuNjYsNS41Miw1LjUyLDAsMCwwLDQuMDYtMS42N0E1LjU0LDUuNTQsMCwwLDAsODcuMiw4LjVhNS41Nyw1LjU3LDAsMCwwLTEuNjctNC4wNyw1LjcsNS43LDAsMCwwLTQuMTQtMS42NW0zLjgsNy45M2E0LjA4LDQuMDgsMCwwLDEtMS41NywxLjU3LDQuMzQsNC4zNCwwLDAsMS0yLjE5LjU3LDQuMjcsNC4yNywwLDAsMS00LjI4LTQuMyw0LjM3LDQuMzcsMCwwLDEsLjU3LTIuMjJBNC4yOCw0LjI4LDAsMCwxLDc5LjMsNC43NWE0LjIsNC4yLDAsMCwxLDIuMTMtLjU5LDQuMjYsNC4yNiwwLDAsMSwyLjE3LjU5LDQuMTgsNC4xOCwwLDAsMSwxLjU5LDEuNTYsNC4zNSw0LjM1LDAsMCwxLC41NiwyLjE5LDQuNDUsNC40NSwwLDAsMS0uNTYsMi4yMSIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMSIgcG9pbnRzPSI5Mi43NSAxMy45NiA5My4yMSAxMy45NiA5Ny45NiAzLjA0IDk2LjQzIDMuMDQgOTIuOTkgMTAuOTQgODkuNjUgMy4xNSA4OS42IDMuMDQgODguMDcgMy4wNCA5Mi43MSAxMy44NiA5Mi43NSAxMy45NiIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMSIgcG9pbnRzPSIxMDUuMDEgMCAxMDIuOTcgMCAxMDEuMTUgMi41NiAxMDIuNTYgMi41NiAxMDUuMDEgMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMSIgcG9pbnRzPSIxMDUuNjcgMTIuNTggMTAwLjcxIDEyLjU4IDEwMC43MSA4Ljc4IDEwNS42NyA4Ljc4IDEwNS42NyA3LjM5IDEwMC43MSA3LjM5IDEwMC43MSA0LjQzIDEwNS43MSA0LjQzIDEwNS43MSAzLjA1IDk5LjMgMy4wNSA5OS4zIDEzLjk2IDEwNS42NyAxMy45NiAxMDUuNjcgMTIuNTgiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xMjEuNDEsMTIuMDZsLjExLS4xNC0xLjEtLjg0LS4xMS4xMmE0LjU0LDQuNTQsMCwwLDEtMy41OCwxLjY4LDQuNDUsNC40NSwwLDAsMS0zLjIyLTEuMjQsNC4xNyw0LjE3LDAsMCwxLTEuMjgtMy4xLDQuMzQsNC4zNCwwLDAsMSwuNTctMi4yMiw0LjE3LDQuMTcsMCwwLDEsMS42MS0xLjU2LDQuNSw0LjUsMCwwLDEsMi4yNS0uNTksNC42Niw0LjY2LDAsMCwxLDIsLjQ1LDQuMjQsNC4yNCwwLDAsMSwxLjU5LDEuMzFsLjExLjE0LDEuMTEtLjg1LS4xLS4xNGE1LjU1LDUuNTUsMCwwLDAtMi0xLjcsNi4yLDYuMiwwLDAsMC0yLjc1LS42LDUuODIsNS44MiwwLDAsMC00LjIsMS42Myw1LjQzLDUuNDMsMCwwLDAtMS42OCw0LDUuNzcsNS43NywwLDAsMCwxLjM5LDMuODgsNS42NSw1LjY1LDAsMCwwLDQuNSwxLjkxLDYuMzQsNi4zNCwwLDAsMCwyLjcyLS41Nyw1LjQsNS40LDAsMCwwLDItMS42Ii8+PHBvbHlnb24gY2xhc3M9ImNscy0xIiBwb2ludHM9IjEyOS41OSAxMi41OCAxMjQuNjMgMTIuNTggMTI0LjYzIDguNzggMTI5LjU5IDguNzggMTI5LjU5IDcuMzkgMTI0LjYzIDcuMzkgMTI0LjYzIDQuNDMgMTI5LjYzIDQuNDMgMTI5LjYzIDMuMDUgMTIzLjIzIDMuMDUgMTIzLjIzIDEzLjk2IDEyOS41OSAxMy45NiAxMjkuNTkgMTIuNTgiLz48cG9seWdvbiBjbGFzcz0iY2xzLTEiIHBvaW50cz0iMTMyLjU2IDYuMjUgMTM5LjI4IDEzLjk2IDEzOS43NyAxMy45NiAxMzkuNzcgMy4wNSAxMzguMzggMy4wNSAxMzguMzggMTAuODUgMTMxLjY1IDMuMTEgMTMxLjYgMy4wNSAxMzEuMTEgMy4wNSAxMzEuMTEgMTMuOTYgMTMyLjU2IDEzLjk2IDEzMi41NiA2LjI1Ii8+PHBvbHlnb24gY2xhc3M9ImNscy0xIiBwb2ludHM9IjE0MC45NCA0LjQzIDE0My4zIDQuNDMgMTQzLjMgMTMuOTYgMTQ0LjczIDEzLjk2IDE0NC43MyA0LjQzIDE0Ny4wOCA0LjQzIDE0Ny4wOCAzLjA0IDE0MC45NCAzLjA0IDE0MC45NCA0LjQzIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTUzLjYsOC43YTIuNzQsMi43NCwwLDAsMCwxLjI0LTEuMDZBMywzLDAsMCwwLDE1NS4yNyw2YTIuNzgsMi43OCwwLDAsMC0uNjMtMS44NSwyLjk0LDIuOTQsMCwwLDAtMS42Mi0xLDEzLDEzLDAsMCwwLTIuNDMtLjE0aC0yLjI4VjE0aDEuNDFWOS4wNmguMzRsMy44LDQuOWgxLjc0bC0zLjgtNC45MWE1LDUsMCwwLDAsMS44LS4zNW0tLjczLTEuMmE0LjU4LDQuNTgsMCwwLDEtMS41LjE5bC0xLjY1LDBWNC40M2gxLjY5YTQuNjYsNC42NiwwLDAsMSwxLjQ5LjE3LDEuNDYsMS40NiwwLDAsMSwuNjcuNTYsMS40OCwxLjQ4LDAsMCwxLC4yNi44NywxLjUzLDEuNTMsMCwwLDEtLjI2Ljg5LDEuNDMsMS40MywwLDAsMS0uNy41OCIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTE2My4xNiw5LjZhNy4zMiw3LjMyLDAsMCwxLS4xLDEuNjEsMi40LDIuNCwwLDAsMS0uNDQuODksMi4xOSwyLjE5LDAsMCwxLS43NC41NywyLjQsMi40LDAsMCwxLTIuMDYtLjA2QTEuOTQsMS45NCwwLDAsMSwxNTksMTJhMi4xMSwyLjExLDAsMCwxLS4zNC0xLDEyLjcyLDEyLjcyLDAsMCwxLDAtMS4zOVYzLjA1aC0xLjQxVjkuNmE4Ljg5LDguODksMCwwLDAsLjIsMi4yOCwzLjE2LDMuMTYsMCwwLDAsMS4yOSwxLjcxLDQuMSw0LjEsMCwwLDAsMi4yOS42NCwzLjM4LDMuMzgsMCwwLDAsMi4xMi0uNjgsMy4yNywzLjI3LDAsMCwwLDEuMTYtMS42MSw3LjkxLDcuOTEsMCwwLDAsLjI5LTIuMzRWMy4wNWgtMS40MVoiLz48cG9seWdvbiBjbGFzcz0iY2xzLTEiIHBvaW50cz0iMTc3LjA5IDMuMiAxNzcuMDcgMy4wNSAxNzYuNjQgMy4wNSAxNzIuNDkgMTEuNSAxNjguMzUgMy4xNCAxNjguMzEgMy4wNSAxNjcuODcgMy4wNSAxNjYuMzEgMTMuOTYgMTY3LjY5IDEzLjk2IDE2OC42NyA2Ljc2IDE3Mi4yIDEzLjg3IDE3Mi4yNCAxMy45NiAxNzIuNzMgMTMuOTYgMTc2LjI2IDYuODIgMTc3LjI1IDEzLjk2IDE3OC42NCAxMy45NiAxNzcuMDkgMy4yIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNTMuMjksMjAuNDNhNS42OCw1LjY4LDAsMCwwLTQuOTIsMi44Nyw1Ljg1LDUuODUsMCwwLDAtLjc2LDIuOTEsNS41LDUuNSwwLDAsMCwxLjY3LDQsNS43NSw1Ljc1LDAsMCwwLDkuODItNC4wNiw1LjUxLDUuNTEsMCwwLDAtMS42Ny00LjA3LDUuNjcsNS42NywwLDAsMC00LjE0LTEuNjZtNC4zNyw1LjcyYTQuMzksNC4zOSwwLDAsMS0uNTcsMi4yMiw0LjEsNC4xLDAsMCwxLTEuNTYsMS41Niw0LjQsNC40LDAsMCwxLTIuMTkuNTgsNC4yNyw0LjI3LDAsMCwxLTQuMjgtNC4zMUE0LjQ5LDQuNDksMCwwLDEsNDkuNjIsMjQsNC4yOCw0LjI4LDAsMCwxLDUxLjIsMjIuNGE0LjIxLDQuMjEsMCwwLDEsMi4xNC0uNTksNC4zMiw0LjMyLDAsMCwxLDIuMTcuNTlBNC4yMyw0LjIzLDAsMCwxLDU3LjA5LDI0YTQuMjgsNC4yOCwwLDAsMSwuNTcsMi4xOSIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTY2LjU4LDI2LjIxYTMuOCwzLjgsMCwwLDAtMS0uNTcsMi40NCwyLjQ0LDAsMCwwLC43Ni0uODEsMi41OCwyLjU4LDAsMCwwLC4zNy0xLjM3QTIuNjcsMi42NywwLDAsMCw2Ni4zLDIyYTIuNTYsMi41NiwwLDAsMC0xLjE0LTEsNS4zLDUuMywwLDAsMC0yLS4zMUg2MC45VjMxLjYySDY0YTMuNjQsMy42NCwwLDAsMCwyLjYxLS45MywzLDMsMCwwLDAsMS0yLjI4LDIuODQsMi44NCwwLDAsMC0uMjctMS4yMywyLjcsMi43LDAsMCwwLS43My0xTTY1LDI0LjM0YTEuNiwxLjYsMCwwLDEtLjc0LjU5LDQuODcsNC44NywwLDAsMS0xLjU2LjE5aC0uNDN2LTNoMWEyLjQxLDIuNDEsMCwwLDEsMS41MS4zNywxLjIsMS4yLDAsMCwxLC40NCwxLDEuNSwxLjUsMCwwLDEtLjI3Ljg4bS0yLjczLDIuMTloLjQzYTguNDQsOC40NCwwLDAsMSwxLjgzLjEzLDIuMjEsMi4yMSwwLDAsMSwxLjE4LjY2LDEuNjcsMS42NywwLDAsMSwuMTIsMi4wNiwxLjc3LDEuNzcsMCwwLDEtLjc5LjY0LDQuNjQsNC42NCwwLDAsMS0xLjYzLjIxSDYyLjI4WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTc4LjM3LDI4Ljg2YTQuNTcsNC41NywwLDAsMS0zLjU4LDEuNjgsNC40Miw0LjQyLDAsMCwxLTMuMjItMS4yNSw0LjE0LDQuMTQsMCwwLDEtMS4yOC0zLjFBNC4zMyw0LjMzLDAsMCwxLDcwLjg2LDI0YTQuMjYsNC4yNiwwLDAsMSwxLjYxLTEuNTcsNC40Niw0LjQ2LDAsMCwxLDIuMjUtLjU4LDQuOCw0LjgsMCwwLDEsMiwuNDQsNC40NCw0LjQ0LDAsMCwxLDEuNTksMS4zMWwuMTEuMTQsMS4xMS0uODUtLjEtLjE0YTUuNTIsNS41MiwwLDAsMC0yLTEuNjksNi4yLDYuMiwwLDAsMC0yLjc1LS42LDUuNzgsNS43OCwwLDAsMC00LjIsMS42Myw1LjQsNS40LDAsMCwwLTEuNjgsNEE1Ljc3LDUuNzcsMCwwLDAsNzAuMjIsMzBhNS42Nyw1LjY3LDAsMCwwLDQuNSwxLjksNi40OCw2LjQ4LDAsMCwwLDIuNzItLjU2LDUuNTMsNS41MywwLDAsMCwyLTEuNjFsLjExLS4xNC0xLjEtLjg0WiIvPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iODEuMTMiIHk9IjIwLjciIHdpZHRoPSIxLjQxIiBoZWlnaHQ9IjEwLjkyIi8+PHBvbHlnb24gY2xhc3M9ImNscy0xIiBwb2ludHM9IjgwLjQyIDIwLjIyIDgxLjgyIDIwLjIyIDg0LjI4IDE3LjY2IDgyLjIzIDE3LjY2IDgwLjQyIDIwLjIyIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNOTIuOCwyMC43LDg3LjY0LDMxLjYyaDEuNTdsMS42NC0zLjQ4aDQuMzRsMS42NiwzLjQ4aDEuNTJMOTMuMjgsMjAuN1ptMS43Niw2LjA3SDkxLjVMOTMsMjMuNTNaIi8+PHBvbHlnb24gY2xhc3M9ImNscy0xIiBwb2ludHM9IjExMy44OSAyMC43IDExMy40NSAyMC43IDEwOS4zMSAyOS4xNSAxMDUuMTcgMjAuOCAxMDUuMTIgMjAuNyAxMDQuNjkgMjAuNyAxMDMuMTMgMzEuNjIgMTA0LjUgMzEuNjIgMTA1LjQ4IDI0LjQyIDEwOS4wMSAzMS41MiAxMDkuMDYgMzEuNjIgMTA5LjU1IDMxLjYyIDExMy4wOCAyNC40NyAxMTQuMDcgMzEuNjIgMTE1LjQ2IDMxLjYyIDExMy45MSAyMC44NSAxMTMuODkgMjAuNyIvPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iMTE3IiB5PSIyMC43IiB3aWR0aD0iMS40MSIgaGVpZ2h0PSIxMC45MiIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMSIgcG9pbnRzPSIxMjAuNDkgMzEuNjIgMTI2Ljg1IDMxLjYyIDEyNi44NSAzMC4yMyAxMjEuOSAzMC4yMyAxMjEuOSAyNi40MyAxMjYuODUgMjYuNDMgMTI2Ljg1IDI1LjA1IDEyMS45IDI1LjA1IDEyMS45IDIyLjA5IDEyNi44OSAyMi4wOSAxMjYuODkgMjAuNyAxMjAuNDkgMjAuNyAxMjAuNDkgMzEuNjIiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xMzEuMzUsMjUuMzNjLS43Ni0uNTYtMS4yMi0uOTEtMS4zNS0xYTIuMTEsMi4xMSwwLDAsMS0uNDgtLjY1LDEuMzcsMS4zNywwLDAsMS0uMTMtLjU5LDEuMDYsMS4wNiwwLDAsMSwuMzUtLjgzLDEuMjYsMS4yNiwwLDAsMSwuOTItLjM0LDEuNTksMS41OSwwLDAsMSwuODMuMjIsNC4xOSw0LjE5LDAsMCwxLDEsMWwuMS4xNCwxLjE0LS44Ni0uMS0uMTRhNS4wNyw1LjA3LDAsMCwwLTEuNDMtMS40MSwzLDMsMCwwLDAtMi44NywwLDIuNTcsMi41NywwLDAsMC0xLDEsMi43MiwyLjcyLDAsMCwwLS4zNSwxLjM1LDIuODYsMi44NiwwLDAsMCwuNTksMS43Miw5LjUxLDkuNTEsMCwwLDAsMS42OCwxLjQ4QTguMDgsOC4wOCwwLDAsMSwxMzIsMjhhMS41OCwxLjU4LDAsMCwxLC4zMy45NCwxLjUsMS41LDAsMCwxLS4yMi43OSwxLjU1LDEuNTUsMCwwLDEtLjY0LjYsMiwyLDAsMCwxLS45Mi4yM2MtLjc1LDAtMS40NC0uNTYtMi0xLjY2bC0uMDktLjE2LTEuMi43Mi4wOC4xNWE0LjgsNC44LDAsMCwwLDEuNSwxLjc4LDMuMywzLjMsMCwwLDAsMS44NC41NCwzLjE1LDMuMTUsMCwwLDAsMi4yNS0uODksMi44OSwyLjg5LDAsMCwwLC45Mi0yLjEzLDMuMTYsMy4xNiwwLDAsMC0uNTMtMS42OCw4LDgsMCwwLDAtMS45My0xLjg1Ii8+PHBvbHlnb24gY2xhc3M9ImNscy0xIiBwb2ludHM9IjEzNC42NSAyMi4wOSAxMzcgMjIuMDkgMTM3IDMxLjYyIDEzOC40MyAzMS42MiAxMzguNDMgMjIuMDkgMTQwLjc5IDIyLjA5IDE0MC43OSAyMC43IDEzNC42NSAyMC43IDEzNC42NSAyMi4wOSIvPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iMjMuODEiIHk9IjEzLjA1IiB3aWR0aD0iNi45NSIgaGVpZ2h0PSI2Ljk1Ii8+PHJlY3QgY2xhc3M9ImNscy0xIiB5PSIxMy4wNSIgd2lkdGg9IjIwLjgzIiBoZWlnaHQ9IjYuOTUiLz48cG9seWdvbiBjbGFzcz0iY2xzLTEiIHBvaW50cz0iMzQuNzMgMC43NyAxMi45IDAuNzcgMTIuOSA3LjcxIDMzLjczIDcuNyAzMy43MyAyNS41OSAxMi45IDI1LjYxIDEyLjkgMzIuNTIgMzQuNzMgMzIuNTIgNDAuNjggMzIuNTIgNDAuNjggMjYuNTYgNDAuNjggNi43MiA0MC42OCAwLjc3IDM0LjczIDAuNzciLz48L2c+PC9nPjwvc3ZnPg==')]", "xpath:img"],
+        ["xpath=//div[@id='q-app']/div/header/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8256d45-2e18-44c2-bd57-f5eb1f6414ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=#portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_sBYoefufCIiL img",
+      "targets": [
+        ["css=#portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_sBYoefufCIiL img", "css:finder"],
+        ["xpath=//img[@alt='Newsletter DEUS']", "xpath:img"],
+        ["xpath=//section[@id='portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_sBYoefufCIiL']/div/div[2]/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/section/div/div[2]/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "580d9670-43e0-4804-8df4-7acf494f335d",
+    "name": "TC_03_recorded_slovensko",
+    "commands": [{
+      "id": "68009195-3af3-42cc-9cd1-4c63787ab863",
+      "comment": "",
+      "command": "open",
+      "target": "/sk/titulna-stranka",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40ee037c-f4fe-450b-bfbc-e193e0e1d0ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "611x674",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "086ecb8d-e20a-41b8-8c8d-3457e43ae261",
+      "comment": "",
+      "command": "click",
+      "target": "id=M14_hlkHelNavKontakt",
+      "targets": [
+        ["id=M14_hlkHelNavKontakt", "id"],
+        ["linkText=English", "linkText"],
+        ["css=#M14_hlkHelNavKontakt", "css:finder"],
+        ["xpath=//a[contains(text(),'English')]", "xpath:link"],
+        ["xpath=//a[@id='M14_hlkHelNavKontakt']", "xpath:attributes"],
+        ["xpath=//div[@id='helpNavigation']/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c99920e-4604-437a-b516-baca179ba7bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cookiebanner-close:nth-child(1)",
+      "targets": [
+        ["css=.cookiebanner-close:nth-child(1)", "css:finder"],
+        ["xpath=//body[@id='indexPage']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//body/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0d6aa3e-3f8c-4984-a87e-960a71f7b9c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=M8_txtSearch",
+      "targets": [
+        ["id=M8_txtSearch", "id"],
+        ["name=M8$txtSearch", "name"],
+        ["css=#M8_txtSearch", "css:finder"],
+        ["xpath=//input[@id='M8_txtSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='M8_plMainSearch']/div/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22707295-b057-4ec2-ba07-e35cbf5095f4",
+      "comment": "",
+      "command": "type",
+      "target": "id=M8_txtSearch",
+      "targets": [
+        ["id=M8_txtSearch", "id"],
+        ["name=M8$txtSearch", "name"],
+        ["css=#M8_txtSearch", "css:finder"],
+        ["xpath=//input[@id='M8_txtSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='M8_plMainSearch']/div/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "tax"
+    }, {
+      "id": "0abf6392-76ed-410e-874f-8b72b42c900f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.searchForm",
+      "targets": [
+        ["css=.searchForm", "css:finder"],
+        ["xpath=//div[@id='M8_plMainSearch']/div/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f96ebbd0-2fc8-4e7a-959c-341fd86c4e01",
+      "comment": "",
+      "command": "click",
+      "target": "id=M8_btnSerch",
+      "targets": [
+        ["id=M8_btnSerch", "id"],
+        ["name=M8$btnSerch", "name"],
+        ["css=#M8_btnSerch", "css:finder"],
+        ["xpath=//input[@id='M8_btnSerch']", "xpath:attributes"],
+        ["xpath=//div[@id='M8_plMainSearch']/div/p/input[2]", "xpath:idRelative"],
+        ["xpath=//p/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c297095-7496-4b83-ab28-5d02bd246ab8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Electronic services",
+      "targets": [
+        ["linkText=Electronic services", "linkText"],
+        ["css=.actionsNavi:nth-child(3) > .serveLink:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Electronic services')]", "xpath:link"],
+        ["xpath=//div[@id='sidebar']/ul[3]/li/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.slovensko.sk/sk/najst-sluzbu')]", "xpath:href"],
+        ["xpath=//ul[3]/li/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Electronic services')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5650ec8c-30ff-4d02-b60d-dbc178d7e2a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Návody",
+      "targets": [
+        ["linkText=Návody", "linkText"],
+        ["css=.serveLink:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Návody')]", "xpath:link"],
+        ["xpath=//div[@id='sidebar']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.slovensko.sk/sk/navody')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Návody')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "685db2d6-5c2e-417b-b039-42feb79902a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.subpagePnl:nth-child(5) h3 span",
+      "targets": [
+        ["css=.subpagePnl:nth-child(5) h3 span", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/h3/strong/span", "xpath:idRelative"],
+        ["xpath=//h3/strong/span", "xpath:position"],
+        ["xpath=//span[contains(.,' Fyzické osoby, fyzické osoby - podnikatelia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c99745f-6512-4120-9f4f-1d33502ee838",
+      "comment": "",
+      "command": "click",
+      "target": "css=.subpagePnl:nth-child(5) a > span",
+      "targets": [
+        ["css=.subpagePnl:nth-child(5) a > span", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Prejsť na návody')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30a17465-a118-4447-be9f-0ab51b956d34",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(7) .icoPdf .icoPdf > span",
+      "targets": [
+        ["css=tr:nth-child(7) .icoPdf .icoPdf > span", "css:finder"],
+        ["xpath=//div[@id='content']/div/table[2]/tbody/tr[7]/td/strong/span/span/a/span", "xpath:idRelative"],
+        ["xpath=//tr[7]/td/strong/span/span/a/span", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2542",
+      "windowTimeout": 2000
+    }, {
+      "id": "a1b983dd-381b-4242-8bde-d76f6bef20bb",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8bf638d3-1c88-4324-b45c-4e88534aa7ad",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2542}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d950736b-3177-4991-9bb8-8bf279eb04c6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98bc906f-4617-4418-b059-186b5bffc21e",
+      "comment": "",
+      "command": "click",
+      "target": "id=M10_hlkHelNavKontakt",
+      "targets": [
+        ["id=M10_hlkHelNavKontakt", "id"],
+        ["linkText=English", "linkText"],
+        ["css=#M10_hlkHelNavKontakt", "css:finder"],
+        ["xpath=//a[contains(text(),'English')]", "xpath:link"],
+        ["xpath=//a[@id='M10_hlkHelNavKontakt']", "xpath:attributes"],
+        ["xpath=//div[@id='helpNavigation']/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f6eb7be-2424-4de7-a5b9-71649d1f2f2a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Help",
+      "targets": [
+        ["linkText=Help", "linkText"],
+        ["css=#helpNavigation > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Help')]", "xpath:link"],
+        ["xpath=//ul[@id='helpNavigation']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/help')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Help')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e747e63d-c07f-4954-a383-2979a2d21573",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Technical support",
+      "targets": [
+        ["linkText=Technical support", "linkText"],
+        ["css=.btn-to-service", "css:finder"],
+        ["xpath=//a[contains(text(),'Technical support')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/h2[2]/span/strong/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.slovensko.sk/en/help/technical-support-for-users-of')]", "xpath:href"],
+        ["xpath=//strong/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Technical support')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "956a3a09-4667-4609-9c65-879b336307dd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cde3e987-f16f-4bd3-a4b8-a5e60b73d657"]
+  }],
+  "urls": ["https://www.slovensko.sk/"],
+  "plugins": []
+}
