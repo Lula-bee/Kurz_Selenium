@@ -1,0 +1,332 @@
+{
+  "id": "74575d64-ba8c-4fc6-802a-7bef7a009a44",
+  "version": "2.0",
+  "name": "pgs_search",
+  "url": "https://www.pgs.sk",
+  "tests": [{
+    "id": "3e2f1382-dbf5-43f8-bc6a-a2838539562c",
+    "name": "TC_01_hladanie_collectorky",
+    "commands": [{
+      "id": "72536f70-cde9-49de-be89-414336129958",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2cdf1149-2447-46a6-9232-a98c55c36f36",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "611x676",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "feac2b22-3d30-4325-94d3-cbbda44f389c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,239.1999969482422)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a50cbdc-50be-4859-8aa7-a1f78060cf9b",
+      "comment": "",
+      "command": "click",
+      "target": "id=transcript_mobile",
+      "targets": [
+        ["id=transcript_mobile", "id"],
+        ["name=keywords", "name"],
+        ["css=#transcript_mobile", "css:finder"],
+        ["xpath=//input[@id='transcript_mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='mobileSearchForm']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87723e69-10b9-4f2b-a9ee-f929f5af909c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,132)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc33d3af-79ee-48cc-8537-7eec44d5a351",
+      "comment": "",
+      "command": "click",
+      "target": "id=transcript_mobile",
+      "targets": [
+        ["id=transcript_mobile", "id"],
+        ["name=keywords", "name"],
+        ["css=#transcript_mobile", "css:finder"],
+        ["xpath=//input[@id='transcript_mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='mobileSearchForm']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b1b5c2e-84a8-405c-bb81-02ce8aadfdee",
+      "comment": "",
+      "command": "type",
+      "target": "id=transcript_mobile",
+      "targets": [
+        ["id=transcript_mobile", "id"],
+        ["name=keywords", "name"],
+        ["css=#transcript_mobile", "css:finder"],
+        ["xpath=//input[@id='transcript_mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='mobileSearchForm']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "collector"
+    }, {
+      "id": "01f9136b-c9ff-427b-b960-496697396a31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-12:nth-child(2) > span",
+      "targets": [
+        ["css=.col-xs-12:nth-child(2) > span", "css:finder"],
+        ["xpath=//span[@onclick='goSearchPage_nMobile();']", "xpath:attributes"],
+        ["xpath=//form[@id='mobileSearchForm']/div[2]/span", "xpath:idRelative"],
+        ["xpath=//form/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24dc3957-4e9c-405c-b107-983acc54db3e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,211.1999969482422)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "692dff0e-45e0-40f7-9221-b3e838d81eaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center > .btn-info",
+      "targets": [
+        ["css=.text-center > .btn-info", "css:finder"],
+        ["xpath=//button[@onclick='openFiltersAll();']", "xpath:attributes"],
+        ["xpath=//div[@id='m_filters_mobile']/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee2052ce-c327-4f5a-a993-0843b998bb67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pr10:nth-child(2) .col-xs-1",
+      "targets": [
+        ["css=.pr10:nth-child(2) .col-xs-1", "css:finder"],
+        ["xpath=//div[@id='filter_product_state']/div[2]/label/div", "xpath:idRelative"],
+        ["xpath=//div[2]/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68cb15ce-92b1-4393-bdd0-507fc1d1aae9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w_product_wrapper:nth-child(1) .w_product_name",
+      "targets": [
+        ["css=.w_product_wrapper:nth-child(1) .w_product_name", "css:finder"],
+        ["xpath=//div[@id='res_products_wrapper_data']/div/a/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4582559-611a-41d1-b052-78d682540f00",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1056)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6ba19074-6d0f-45d4-ba28-354e9cb259b0",
+    "name": "TC_02_hladanieCrashBandicoot",
+    "commands": [{
+      "id": "eeada41c-5998-4cd9-868e-b2d6ba55c0dd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "439ecc3f-a049-4c20-9ad5-f46465d12670",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "611x676",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a3d9a23-f94f-4a71-a1cb-45e3aeae08ab",
+      "comment": "",
+      "command": "click",
+      "target": "id=transcript_mobile",
+      "targets": [
+        ["id=transcript_mobile", "id"],
+        ["name=keywords", "name"],
+        ["css=#transcript_mobile", "css:finder"],
+        ["xpath=//input[@id='transcript_mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='mobileSearchForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30f33cd4-e039-4a15-a7cf-c7c45c4e175c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.active .top_image_slide",
+      "targets": [
+        ["css=.active .top_image_slide", "css:finder"],
+        ["xpath=//img[@alt='DOOM: The Dark Ages']", "xpath:img"],
+        ["xpath=//div[@id='one_top_n_big']/div/div/div/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25aae8a2-302c-4e0d-bce7-4fecbf5681df",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.active .top_image_slide",
+      "targets": [
+        ["css=.active .top_image_slide", "css:finder"],
+        ["xpath=//img[@alt='DOOM: The Dark Ages']", "xpath:img"],
+        ["xpath=//div[@id='one_top_n_big']/div/div/div/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "feb493f6-0d56-4c57-b9b8-5500e926c092",
+      "comment": "",
+      "command": "type",
+      "target": "id=transcript_mobile",
+      "targets": [
+        ["id=transcript_mobile", "id"],
+        ["name=keywords", "name"],
+        ["css=#transcript_mobile", "css:finder"],
+        ["xpath=//input[@id='transcript_mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='mobileSearchForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "crash bandicoot"
+    }, {
+      "id": "88482235-104c-4d9e-b508-a1791aa85cb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=span .icon-search",
+      "targets": [
+        ["css=span .icon-search", "css:finder"],
+        ["xpath=//form[@id='mobileSearchForm']/div[2]/span/div/i", "xpath:idRelative"],
+        ["xpath=//div[2]/span/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d90f728-8c89-4a82-8414-d91c7dbdff2c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,105.5999984741211)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f3740fd-6241-486e-b070-a3816856e1a1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,528)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d71bd53b-dd6c-43b9-9c10-11e6fbfa0c9e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,422.3999938964844)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e98b22ae-8c37-4872-a83e-1db5cae5d28d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,388.79998779296875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95576b99-7334-43e2-a727-5e1ac27cc48d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,758.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f42d2925-9ce5-4ea7-8e82-0f7c9431f8eb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,903.2000122070312)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a7d17cd-9b4c-40dc-b73a-c83acf8f9281",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1056)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ddb84a9a-1075-4323-9db8-8211247c87dd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1096)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "461e9e28-e392-40c1-84ac-fe2245f00c06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w_product_wrapper:nth-child(6) .w_product_name",
+      "targets": [
+        ["css=.w_product_wrapper:nth-child(6) .w_product_name", "css:finder"],
+        ["xpath=//div[@id='res_products_wrapper_data']/div[6]/a/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/a/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bfe1af9-3fc8-4495-bb7d-c18cceb07098",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1372.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c029236-f404-4899-8854-dde03e62e8b6",
+      "comment": "",
+      "command": "click",
+      "target": "id=soc_proof",
+      "targets": [
+        ["id=soc_proof", "id"],
+        ["css=#soc_proof", "css:finder"],
+        ["xpath=//div[@id='soc_proof']", "xpath:attributes"],
+        ["xpath=//div[@id='soc_proof_wrapper']/div", "xpath:idRelative"],
+        ["xpath=//body/div[6]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2de67bf3-f094-4251-9f58-5782d3e3fe39",
+      "comment": "",
+      "command": "click",
+      "target": "id=soc_proof",
+      "targets": [
+        ["id=soc_proof", "id"],
+        ["css=#soc_proof", "css:finder"],
+        ["xpath=//div[@id='soc_proof']", "xpath:attributes"],
+        ["xpath=//div[@id='soc_proof_wrapper']/div", "xpath:idRelative"],
+        ["xpath=//body/div[6]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f5c815cd-147e-4197-ba80-8222b3f6434f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3e2f1382-dbf5-43f8-bc6a-a2838539562c"]
+  }],
+  "urls": ["https://www.pgs.sk/"],
+  "plugins": []
+}

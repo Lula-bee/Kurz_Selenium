@@ -1,0 +1,72 @@
+{
+  "id": "26601f40-75c7-48b9-ad6f-7347684c2234",
+  "version": "2.0",
+  "name": "Page_opening",
+  "url": "https://www.google.sk",
+  "tests": [{
+    "id": "7e86910f-380d-4980-8f12-a63224af6dd0",
+    "name": "TC_01_otvorenie_google.sk",
+    "commands": [{
+      "id": "baf454a5-1f85-43d6-b897-3a9395e85d94",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.sk",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "cd5894a9-90e5-4452-a420-cb894442d92b",
+    "name": "TC_02_otvorenie_github.com",
+    "commands": [{
+      "id": "c2f0997a-8af6-4d77-b49c-d43f07356778",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.github.com",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3c9dd431-87c9-435f-aed0-fccd98cfcecb",
+    "name": "TC_03_otvorenie_wikipedia.sk",
+    "commands": [{
+      "id": "618e57d0-3dfc-453a-8840-fa2673bf69d3",
+      "comment": "",
+      "command": "open",
+      "target": "https://sk.wikipedia.org/wiki/Hlavn%C3%A1_str%C3%A1nka",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "05f3e502-0a44-4106-a144-c196dc4cbf06",
+    "name": "TC_04_otvorenie_slovensko.sk",
+    "commands": [{
+      "id": "61c2131c-6817-4381-ac50-8285df8e6eb1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "26b6b4f4-de78-4068-b73b-035821900091",
+    "name": "TC_05_otvorenie_o2.sk",
+    "commands": [{
+      "id": "65e0f443-ea34-4fb4-a463-126c76ba6dbf",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.o2.sk/",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "82491a1b-6057-46ed-ac88-25b6fae294b9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7e86910f-380d-4980-8f12-a63224af6dd0"]
+  }],
+  "urls": ["https://www.google.sk/"],
+  "plugins": []
+}
