@@ -1,0 +1,99 @@
+{
+  "id": "86f07dff-0895-431d-ba78-da50e571588d",
+  "version": "2.0",
+  "name": "Prikazy_Selenes",
+  "url": "www.google.sk",
+  "tests": [{
+    "id": "1fdd6d05-f39b-44a5-82ec-a85c255fd52c",
+    "name": "TC_02_wait-cakanie_na_element",
+    "commands": [{
+      "id": "6143c8ef-4f45-4fb4-a264-189376759c46",
+      "comment": "",
+      "command": "open",
+      "target": "www.google.sk",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2879a02-d009-4789-b01c-b53a86ca94ac",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "",
+      "targets": [],
+      "value": "2000"
+    }]
+  }, {
+    "id": "02a54a82-4398-4a81-b523-63af7739a3ea",
+    "name": "TC_01_open_otvaranieStranok",
+    "commands": [{
+      "id": "41598571-71d8-4d7f-93e5-155701817803",
+      "comment": "",
+      "command": "open",
+      "target": "www.google.sk",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc80fedd-11fe-494c-b9db-31c740d1a2e7",
+      "comment": "",
+      "command": "open",
+      "target": "www.wikipedia.org",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea4e8f97-2aef-4486-88cc-2c5af2a7b6c4",
+      "comment": "",
+      "command": "open",
+      "target": "www.t-com.sk",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed941e1f-abe6-4493-9a1f-2ebc0eb7ef67",
+      "comment": "",
+      "command": "open",
+      "target": "www.o2.sk",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3c927736-4ad6-451d-a541-5afeffbb8e02",
+    "name": "TC_03_echo",
+    "commands": [{
+      "id": "b9694737-0790-4885-91b4-ebeffd5fa112",
+      "comment": "",
+      "command": "open",
+      "target": "www.google.sk",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea691152-e508-45da-b598-77cc634f645d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "",
+      "targets": [],
+      "value": "2000"
+    }, {
+      "id": "0bb9799a-5d9e-45b4-9d15-4f4fc1d2ae47",
+      "comment": "",
+      "command": "echo",
+      "target": "nejde to :D",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d61fdd7b-ff7c-4a00-a083-1956668dcdf2",
+      "comment": "",
+      "command": "//nesiel oznacit element",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "200002a4-c38a-4cc2-a47f-9bd149c7e66e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1fdd6d05-f39b-44a5-82ec-a85c255fd52c"]
+  }],
+  "urls": [],
+  "plugins": []
+}
